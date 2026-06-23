@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --color-acc-black-raw: #0A0A0A;
+  --color-acc-white-raw: #FFFFFF;
+  --color-yellow-raw: #FFD23F;
+  --color-light-yellow-raw: #FFE89A;
+  --color-gray-raw: #4B4B4B;
+  --color-border-raw: #E6E6E6;
+}
+
+@theme {
+  --color-acc-black: var(--color-acc-black-raw);
+  --color-acc-black: var(--color-acc-white-raw);
+  --color-yellow: var(--color-yellow-raw);
+  --color-light-yellow: var(--color-light-yellow-raw);
+  --color-gray: var(--color-Gray-raw);
+  --color-border: var(--color-border-raw);
+}
