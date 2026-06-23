@@ -11,9 +11,41 @@
 
 @theme {
   --color-acc-black: var(--color-acc-black-raw);
-  --color-acc-black: var(--color-acc-white-raw);
+  --color-acc-white: var(--color-acc-white-raw);
   --color-yellow: var(--color-yellow-raw);
   --color-light-yellow: var(--color-light-yellow-raw);
-  --color-gray: var(--color-Gray-raw);
+  --color-gray: var(--color-gray-raw);
   --color-border: var(--color-border-raw);
+}
+
+@utility text-text-small {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+}
+
+
+@utility text-text {
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
+}
+
+@utility text-h3 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+}
+
+@utility text-h2 {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 1.3;
+}
+
+@utility text-h1 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 1.3;
 }
