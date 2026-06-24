@@ -41,6 +41,11 @@ const Header = () => {
         </svg>
         <span className="text-text font-medium">Забронювати</span>
       </button>
+        <button className="md:hidden inline w-10 h-10">
+          <svg className="w-7 h-7" fill="currentColor">
+            <use href="#icon-cafe"></use>
+          </svg>
+        </button>
     </header>
   );
 };
